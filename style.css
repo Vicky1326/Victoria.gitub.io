@@ -1,0 +1,142 @@
+
+:root {
+    --view-transition-name: root;
+}
+
+html {
+    display: block;
+}
+
+body {
+    background: #eee;
+    color: #2b4770;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    margin: 8px;
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
+
+div {
+    display: block;
+}
+
+.card-white {
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #2b4770;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+h2{
+    color:#7c4c09;
+    font-size: 20px;
+    font-weight: 500;  
+}
+
+strong{
+    font-style: bold;
+}
+p{ 
+    margin-bottom: 40px;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+header {
+    background-color: #2b4770;
+    color: #2b4770;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+nav a {
+    color: #3a4a7f;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.btn-blue {
+    background-color: #da8fc6;
+    color:#7c4c09;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #333;
+    color: #2b4770;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-white ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.card-white li {
+    margin-right: 10px;
+}
+
+.card-white a{
+    display: inline-block;
+    text-decoration: none;
+    transition:none;
+    color:#da8fc6;
+    font-size: 30px;
+    line-height: normal;
+}
+
+.card-white a:hover{
+    color: #fff;
+}
+
+
